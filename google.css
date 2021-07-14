@@ -5,7 +5,15 @@
     font-size: 13px;
 }
 
-.topBar img {
+.navBar {
+    display: flex;
+    align-items: center;
+    padding: 6px;
+    box-sizing: border-box;
+    justify-content: flex-end;
+}
+
+.topBar img{
     height: 32px; 
     width: 32px; 
     border-radius: 100px;
@@ -20,7 +28,7 @@ a:hover {
     text-decoration: underline;
 }
 
-.searchWrap {
+.searchBar {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,3 +36,17 @@ a:hover {
     
 }
 
+.voice {
+    display: flex;
+    align-items: center;
+    height: 24px;
+    width: 24px;
+    vertical-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.googleLogo {
+    display: block;
+    margin: auto;
+}
