@@ -1,23 +1,79 @@
-.topBar {
-    text-align: right;
-    word-spacing: 10px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 13px;
-}
 
-.navBar {
+.navBarFlex {
     display: flex;
     align-items: center;
     padding: 6px;
-    box-sizing: border-box;
-    justify-content: flex-end;
 }
 
-.topBar img{
-    height: 32px; 
-    width: 32px; 
-    border-radius: 100px;
+.navBar {
+    display: inline-block;
+    flex-grow: 1;
+    min-width: auto;
 }
+
+.navBar2 {
+    float: right;
+    padding-left: 32px;
+    box-sizing: border-box;
+    height: 48px;
+    line-height: normal;
+    padding: 0 4px;
+    flex: 0 0 auto;
+    justify-content: flex-end;
+    vertical-align: middle;
+    white-space: nowrap;
+    -webkit-box-align: center;
+    align-items: center;
+    display: flex;
+    -webkit-user-select: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+
+}
+
+
+.navBarGmail {
+    padding-right: 15px;
+    padding-bottom: 5px;
+    
+}
+
+.navBarImages {
+    padding-right: 15px;
+    padding-bottom: 5px;
+}
+
+.navBarApps img {
+    height: 32px;
+    width: 32px;
+    padding: 5px
+    
+}
+
+
+.navBarApps:hover img {
+    
+    background-color: rgba(221, 215, 215, 0.87);
+    border-radius: 50%;
+
+}
+
+
+.navBarProfile img {
+    height: 28px;
+    width: 28px;
+    padding: 5px;
+    border-radius: 50%;
+    
+    
+    
+}
+
+.navBarProfile:hover img {
+    box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+    background-color: rgba(221, 215, 215, 0.87);
+}
+
 
 
 a:link, a:active, a:visited {
